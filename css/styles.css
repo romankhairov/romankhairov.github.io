@@ -1,0 +1,9 @@
+#gallery {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+#gallery.photos img {
+  width: 100%;
+}
