@@ -1,9 +1,21 @@
+html, body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
 #gallery {
-    display: block;
-    margin: auto;
-    width: 40%;
+    width: 960;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 #gallery.photos img {
   width: 100%;
+  display: none;
+
+}
+
+#gallery.photos img:first-child {
+  display: block;
 }
