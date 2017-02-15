@@ -6,6 +6,7 @@ window.onload = function() {
   canvas.setAttribute('width', width);
   canvas.setAttribute('height', height);
 
+
   var renderer = new THREE.WebGLRenderer({canvas: canvas});
   renderer.setClearColor(0x000000);
 
@@ -18,11 +19,21 @@ window.onload = function() {
   scene.add(light);
 
   var geometry = new THREE.SphereGeometry(200, 12, 12);
-  var material = new THREE.MeshBasicMaterial({color: 0x00ff00, wireframe: true});
+  var material = new THREE.MeshBasicMaterial({color: 0xffffff, vertexColors: THREE.FaceColors});
+
+  for(var i = 0; i < geometry.faces.length; i++) {
+    geometry.faces[i].color.setRGB(Math.random(), Math.random(), Math.random());
+  }
+
+
   var mesh = new THREE.Mesh(geometry, material);
   scene.add(mesh);
 
-  renderer.render(scene, camera);
+  function loop(){
+    mesh.rotation.y += Math.PI / 1000;
+    renderer.render(scene, camera);
+    requestAnimationFrame(function(){loop();});
+  }
 
-
+  loop()
 }
