@@ -6,6 +6,22 @@ window.onload = function() {
   canvas.setAttribute('width', width);
   canvas.setAttribute('height', height);
 
+  var ball = {
+    positionX: 0,
+    positionY: 0,
+    positionZ: 0,
+    rotationX: 0,
+    rotationY: 0,
+    rotationZ: 0
+  }
+
+  var gui = new DAT.GUI();
+  gui.add(ball, 'positionX').min(-5).max(5).step(0.1);
+  gui.add(ball, 'positionY').min(-5).max(5).step(0.1);
+  gui.add(ball, 'positionZ').min(-5).max(5).step(0.1);
+  gui.add(ball, 'rotationX').min(-0.2).max(0.2).step(0.001);
+  gui.add(ball, 'rotationY').min(-0.2).max(0.2).step(0.001);
+  gui.add(ball, 'rotationZ').min(-0.2).max(0.2).step(0.001);
 
   var renderer = new THREE.WebGLRenderer({canvas: canvas});
   renderer.setClearColor(0x000000);
@@ -30,7 +46,16 @@ window.onload = function() {
   scene.add(mesh);
 
   function loop(){
-    mesh.rotation.y += Math.PI / 1000;
+    mesh.rotation.x += ball.rotationX;
+    mesh.rotation.y += ball.rotationY;
+    mesh.rotation.z += ball.rotationZ;
+
+    mesh.position.x += ball.positionX;
+    mesh.position.y += ball.positionY;
+    mesh.position.z += ball.positionZ;
+
+
+
     renderer.render(scene, camera);
     requestAnimationFrame(function(){loop();});
   }
