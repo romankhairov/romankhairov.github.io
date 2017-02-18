@@ -25,8 +25,8 @@ window.onload = function() {
 
   var renderer = new THREE.WebGLRenderer({canvas: canvas});
   renderer.setClearColor(0x000000);
-  renderer.shadowMapEnabled = true;
-  renderer.shadowMapSoft = true;
+  // renderer.shadowMapEnabled = true;
+  // renderer.shadowMapSoft = true;
 
 
   var scene = new THREE.Scene();
@@ -37,24 +37,24 @@ window.onload = function() {
   var light = new THREE.AmbientLight(0xffffff);
   scene.add(light);
 
-  var spotLight = new THREE.SpotLight (0xffffff);
-  spotLight.castShadow = true;
-  spotLight.position.set (15, 30, 50);
-
-  scene.add(spotLight);
+  // var spotLight = new THREE.SpotLight (0xffffff);
+  // spotLight.castShadow = true;
+  // spotLight.position.set (15, 30, 50);
+  //
+  // scene.add(spotLight);
 
   var geometry = new THREE.SphereGeometry(200, 12, 12);
   var material = new THREE.MeshBasicMaterial({color: 0xffffff, vertexColors: THREE.FaceColors});
 
-  var planeGeometry = new THREE.PlaneGeometry (3000, 3000, 3000);
-  var planeMaterial = new THREE.MeshLambertMaterial({color:0xffffff});
-  var plane = new THREE.Mesh(planeGeometry, planeMaterial);
-
-  plane.rotation.x = -.5*Math.PI;
-  plane.position.x = -200;
-  plane.position.y = 0;
-  plane.position.z = 0; 
-  plane.receiveShadow = true;
+  //var planeGeometry = new THREE.PlaneGeometry (3000, 3000, 3000);
+  //var planeMaterial = new THREE.MeshLambertMaterial({color:0xffffff});
+  // var plane = new THREE.Mesh(planeGeometry, planeMaterial);
+  //
+  // plane.rotation.x = -.5*Math.PI;
+  // plane.position.x = -200;
+  // plane.position.y = 0;
+  // plane.position.z = 0;
+  // plane.receiveShadow = true;
 
 
 
@@ -65,7 +65,7 @@ window.onload = function() {
 
   var mesh = new THREE.Mesh(geometry, material);
   scene.add(mesh);
-  mesh.castShadow = true;
+//  mesh.castShadow = true;
 
   function loop(){
     mesh.rotation.x += ball.rotationX;
