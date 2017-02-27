@@ -1,0 +1,23 @@
+I have 2 main directions of my work:
+
+-Web Development
+-3d Art
+-About
+-Contacts
+
+According to this should be next structure of the website:
+
+
+
+-Main Menu: landing page
+
+  -Web Development
+    +JavaScript projects
+    +WebSites
+    +Other
+
+  -3d Artworks
+    +Game Development
+    +Commercial projects
+    +2d Art
+    +Other
