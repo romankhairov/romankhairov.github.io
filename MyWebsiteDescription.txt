@@ -21,3 +21,11 @@ According to this should be next structure of the website:
     +Commercial projects
     +2d Art
     +Other
+
+  -About
+    +Education
+    +Projects I have worked
+
+  -Contacts
+    +Social networks
+    +e-mail and phone number
