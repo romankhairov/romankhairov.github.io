@@ -1,0 +1,22 @@
+@import
+url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	list-style:none;
+	border:0px;
+  }
+  body{
+
+  }
+
+  .main-menu {
+    color: red;
+  }
+
+  .pages {
+    color: grey;
+  }
