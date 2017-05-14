@@ -1,0 +1,282 @@
+/* MyCV is a responsive personal business card template
+Here is the content of this css file
+
+- Main Wrapper
+	- Loader
+	- Color Setting
+	- Main Menu
+	- Blocs
+	- Personal Info Image
+	- Personal Info
+	- Main Content
+		- Home
+		- About
+		- My Skills
+			- Boxs
+			- Bars
+			- Languages
+			- Numbers
+		- Experiences
+		- My projects
+			- Portfolio
+		- My Blogs
+			- Single Post
+		- Contact
+	- Popup
+
+*/
+
+/* Wrapper */
+.lx-wrapper{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#FFFFFF;
+	overflow:hidden;
+}
+@media(max-width:768px){
+	.lx-wrapper{
+		position:static;
+		overflow:auto;
+	}
+}
+
+/* Loader */
+.lx-loader{
+	display:flex;
+	align-items:center;
+    justify-content:center;
+	position:fixed;
+	z-index:10;
+	width:100%;
+	height:100%;
+	text-align:center;
+	background:#33003c;
+}
+.lx-loader img{
+	width:40px;
+}
+
+/* Main Menu */
+.lx-main-menu{
+	position:static;
+	width:100%;
+	background:#4a1054;
+}
+@media(max-width:768px){
+	.lx-main-menu{
+		position:fixed;
+		z-index:9;
+	}
+}
+.lx-main-menu > i{
+	display:none;
+	margin:0px 20px;
+	padding:10px;
+	font-size:30px;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+@media(max-width:768px){
+	.lx-main-menu > i{
+		display:inline-block;
+	}
+}
+.lx-main-menu ul{
+	display:block;
+}
+@media(max-width:768px){
+	.lx-main-menu ul{
+		display:none;
+	}
+}
+.lx-main-menu ul li a{
+	display:block;
+	padding:15px 0px;
+	text-align:center;
+	color:#FFFFFF;
+	transition:ease all 0.3s;
+	-webkit-transition:ease all 0.3s;
+}
+@media(max-width:768px){
+	.lx-main-menu ul li a{
+		padding:10px 30px;
+		text-align:left;
+	}
+}
+.lx-main-menu ul li a i{
+	display:block;
+	margin-bottom:3px;
+	font-size:30px;
+}
+@media(max-width:768px){
+	.lx-main-menu ul li a i{
+		display:inline-block;
+		margin-right:5px;
+		font-size:16px;
+	}
+}
+.lx-main-menu ul li a:hover{
+	background:#33003c;
+}
+@media(max-width:768px){
+	.lx-main-menu ul li a:hover{
+		background:#33003c;
+	}
+}
+.lx-main-menu ul li a.active{
+	background:#33003c;
+}
+@media(max-width:768px){
+	.lx-main-menu ul li a.active{
+		background:#33003c;
+	}
+}
+/* Personal Info */
+.lx-personal-info-img img{
+	display:block;
+	width:100%;
+}
+.lx-personal-info{
+	padding:60px;
+	overflow:auto;
+}
+@media(max-width:1024px){
+	.lx-personal-info{
+		padding:40px;
+	}
+}
+@media(max-width:768px){
+	.lx-personal-info{
+		padding:20px;
+	}
+}
+.lx-personal-info em{
+	color:#BEBEBE;
+}
+.lx-personal-info p{
+	margin:50px 0px;
+}
+.lx-personal-info ul{
+	margin:50px 0px;
+}
+.lx-personal-info ul li{
+	float:left;
+}
+.lx-personal-info ul li a{
+	display:block;
+	width:40px;
+	padding:5px 0px;
+	margin:3px;
+	font-size:20px;
+	text-align:center;
+	background:#4a1054;
+	color:#FFFFFF;
+	border:1px solid #4a1054;
+	transition:ease all 0.3s;
+	-webkit-transition:ease all 0.3s;
+}
+.lx-personal-info ul li a:hover{
+	background:#FFFFFF;
+	color:#4a1054;
+}
+.lx-personal-info-button{
+	margin:30px 0px;
+}
+.lx-personal-info a.lx-download-resume{
+	display:inline-block;
+	margin:5px 0px;
+	padding:10px 30px;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	background:#FFFFFF;
+	color:#4a1054;
+	border:1px solid #4a1054;
+	transition:ease all 0.3s;
+	-webkit-transition:ease all 0.3s;
+}
+@media(max-width:768px){
+	.lx-personal-info a.lx-download-resume{
+		display:block;
+	}
+}
+.lx-personal-info a.lx-download-resume:hover{
+	background:#4a1054;
+	color:#FFFFFF;
+}
+/* Popup */
+.lx-popup{
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:20;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.7);
+	display:none;
+}
+.lx-popup-inside{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	position:relative;
+	height:100%;
+}
+.lx-popup-inside a > i{
+	position:absolute;
+	z-index:10;
+	top:45%;
+	font-size:40px;
+	color:#FFFFFF;
+	text-shadow:0px 0px 3px #5d4c40;
+}
+.lx-popup-inside i.fa-caret-left{
+	left:10px;
+}
+.lx-popup-inside i.fa-caret-right{
+	right:10px;
+}
+.lx-popup-content{
+	display:table;
+	margin:auto;
+}
+.lx-popup-image{
+	position:relative;
+	box-shadow:0px 0px 3px #33003c;
+}
+.lx-popup-inside i.fa-remove{
+	position:absolute;
+	top:10px;
+	right:10px;
+	font-size:30px;
+	color:#FFFFFF;
+	text-shadow:0px 0px 3px #33003c;
+}
+.lx-popup-image img{
+	display:block;
+	max-width:800px;
+	max-height:500px;
+	transform:scale(0.5);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+@media(max-width:768px){
+	.lx-popup-image img{
+		width:100%;
+	}
+}
+.lx-popup-details ul{
+	width:100%;
+}
+.lx-popup-details ul li:first-child{
+	float:left;
+}
+.lx-popup-details ul li:last-child{
+	float:right;
+}
+.lx-popup-details ul li span{
+	display:inline-block;
+	margin-top:5px;
+	color:#FFFFFF;
+}
