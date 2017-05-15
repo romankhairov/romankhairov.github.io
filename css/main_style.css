@@ -280,3 +280,73 @@ Here is the content of this css file
 	margin-top:5px;
 	color:#FFFFFF;
 }
+/* Resume */
+.lx-about{
+	padding:60px;
+	overflow:auto;
+}
+@media(max-width:1024px){
+	.lx-about{
+		padding:40px;
+	}
+}
+@media(max-width:768px){
+	.lx-about{
+		padding:20px;
+	}
+}
+.lx-about h3{
+	position:relative;
+	margin-bottom:30px;
+}
+.lx-about h3::after{
+	content:"";
+	position:absolute;
+	z-index:1;
+	top:50%;
+	display:block;
+	width:100%;
+	height:5px;
+	background:#4a1054;
+}
+.lx-about h3 span{
+	position:relative;
+	z-index:2;
+	display:inline-block;
+	padding-right:30px;
+	background:#FFFFFF;
+}
+.lx-quote{
+	float:right;
+	width:50%;
+	margin-left:20px;
+	margin-bottom:20px;
+	padding:20px;
+	background:#FBFBFB;
+}
+@media(max-width:768px){
+	.lx-quote{
+		clear:both;
+		width:100%;
+	}
+}
+.lx-quote h4{
+	margin-bottom:10px;
+	font-size:20px;
+	text-transform:uppercase;
+	color:#4a1054;
+}
+.lx-quote em{
+	display:block;
+	margin-top:10px;
+	font-size:16px;
+	font-family:'Indie Flower';
+	text-align:right;
+	color:#999999;
+}
+.lx-about > p{
+	margin-bottom:15px;
+}
+.lx-about > p b{
+	color:#000000;
+}
