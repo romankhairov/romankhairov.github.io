@@ -22,7 +22,7 @@ $ok = @mail($to, $subject, $message, $headers, "-f " . $from);
 ?>
 
 <!-- Return Succes Message -->
-<div style="margin-bottom:20px;padding:10px;background:#F8F8F8;color:#33003c;border-left:3px solid GREEN;">
+<div style="margin-bottom:20px;padding:10px;background:#F8F8F8;color:#00186f;border-left:3px solid GREEN;">
 	<p style="float:left;margin:0px;padding:0px;">Thanks for contacting me <b><?php echo $fullname;?></b>. Your message was sent succesfully. I'm going to get in touch with you as soon as possible</p>
 	<div class="lx-clear-fix"></div>	
 </div>
