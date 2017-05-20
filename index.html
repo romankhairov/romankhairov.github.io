@@ -14,6 +14,15 @@
 
   </head>
 
+    <style>
+      body{
+        padding-top: 40px;
+      }
+      ul {
+        list-style-type: none;
+      }
+    </style>
+
   <body>
       <!-- Navbar -->
       <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
@@ -28,6 +37,7 @@
             <a href="https://github.com/romankhairov" class="navbar-brand">Roman Khairov</a>
           </div> <!-- Navbar Header -->
           <div class="collapse navbar-collapse" id="navbar-collapse">
+            <!-- <a href="" class="btn btn-info navbar-btn navbar-right">111</a> -->
             <ul class="nav navbar-nav">
               <li><a href="#who_i_am">Who I Am</a></li>
               <li><a href="#what_i_do">What I Do</a></li>
@@ -42,20 +52,71 @@
 
       <!-- jumbotron -->
       <div class="jumbotron">
-        <div class="container text-center">
-          <h1><b>Hi, I'm Roman</b></h1>
-          <p>I am learning web development. At this website you will find general information about me and my pet projects</p>
+        <div class="container ">
+
+          <div class="page-header" id="feedback">
+    				<h2>Who I Am</h2>
+    			</div><!-- End header -->
+
+          <div class="container text-center"> <!-- Start rows -->
+            <div class="row" id="my-info">
+              <!-- <div class="col-lg-3">
+                <ul>
+                  <li><strong>Full Name: </strong>Roman Khairov</li>
+                  <li><strong>Birthday: </strong>09 October 1985</li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <ul>
+                  <li><strong>E-mail: </strong>roman.khairov@gmail.com</li>
+                  <li><strong>Phone: </strong>+48 575 001</li>
+                </ul>
+              </div> -->
+              <div class="col-lg-3">
+                  <p><strong>Full Name: </strong>Roman Khairov</p>
+              </div>
+              <div class="col-lg-3">
+                  <p><strong>Birthday: </strong>09 October 1985</p>
+              </div>
+              <div class="col-lg-3">
+                  <p><strong>E-mail: </strong>roman.khairov@gmail.com</p>
+              </div>
+              <div class="col-lg-3">
+                  <p><strong>Phone: </strong>+48 575 001</p>
+              </div>
+            </div>
+          </div>
+          <!-- End rows -->
+
+          <!-- <h1><b>Hi, I'm Roman</b></h1>
+          <p>I am learning web development. At this website you will find general information about me and my pet projects</p> -->
 
           <div class="btn-group">
-            <a target="_blank" href="https://github.com/romankhairov" class="btn btn-lg btn-info">GitHub</a>
-            <a target="_blank" href="https://web.facebook.com/roman.khairov" class="btn btn-lg btn-info">Facebook</a>
+            <!-- <a target="_blank" href="https://github.com/romankhairov" class="btn btn-lg btn-info">GitHub</a> -->
+            <!-- <a target="_blank" href="https://web.facebook.com/roman.khairov" class="btn btn-lg btn-info">Facebook</a>
             <a target="_blank" href="http://row09.blogspot.com/" class="btn btn-lg btn-info">3dArtworks</a>
-            <a target="_blank" href="https://www.linkedin.com/in/romankhairov/" class="btn btn-lg btn-info">LinkedIn</a>
+            <a target="_blank" href="https://www.linkedin.com/in/romankhairov/" class="btn btn-lg btn-info">LinkedIn</a> -->
           </div>
         </div> <!-- End container -->
       </div> <!-- End jumbotron -->
 
+      <div class="container">
+        <section>
+          <div class="page-header" id="feedback">
+            <h2>Feedback.<small>Check out the feedback</small></h2>
 
+            <div class="row">
+              <div class="col-lg-4">
+                <blockquote cite="http://">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et neque luctus, tristique magna non, pulvinar diam. Curabitur ac sem vel dolor ornare malesuada. Donec ante velit, rutrum nec venenatis sed, semper ut velit. Fusce at tempor libero. Suspendisse pharetra blandit accumsan. Morbi non dui dictum, maximus ex non, blandit quam. Duis hendrerit non urna non rutrum. Morbi iaculis aliquet mattis. Mauris malesuada arcu porta, imperdiet urna nec, eleifend dui.</p>
+                  <footer>Dude One</footer>
+                </blockquote>
+              </div>
+            </div> <!-- End row -->
+
+          </div>
+        </section>
+      </div> <!-- End container -->
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
