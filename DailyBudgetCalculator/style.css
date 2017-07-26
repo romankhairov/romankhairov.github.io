@@ -1,4 +1,4 @@
-/*General*/
+/*****************************  General  ********************************/
 * {
     margin: 0;
     padding: 0;
@@ -25,14 +25,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
-.income-panel,
-.mandatory_costs {
+.left-block,
+.right-block {
     width: 50%;
     float: left;
     height: 700px;
     padding: 100px;
+}
+
+/*****************************  Input  ********************************/
+
+.salary {
+    position: relative;
+    left: 100px;
+    transform: translateX(-50%);
+    top: 100px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
 }
