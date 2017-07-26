@@ -6,6 +6,9 @@
 // for the rest days recalculates.
 
 // 1) input
+var monthlySalary;
 
-var monthlySalary = document.querySelector('.salary').value;
-console.log(monthlySalary);
+function salaryInput() {
+  monthlySalary = document.querySelector('.salary').value;
+  console.log(monthlySalary);
+}
