@@ -6,9 +6,8 @@
 // for the rest days recalculates.
 
 // 1) input
-var monthlySalary;
-
-function salaryInput() {
-  monthlySalary = document.querySelector('.salary').value;
-  console.log(monthlySalary);
-}
+var monthlySalaryForm = document.getElementById('monthlySalary-form');
+monthlySalaryForm.onsubmit = function(event) {
+  event.preventDefault();
+  console.log(monthlySalaryForm.fullName);
+};
