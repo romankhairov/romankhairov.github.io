@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="style.css">
 
 
@@ -13,23 +13,26 @@
   <body>
        <!-- Main panel -->
       <div class="wrapper clearfix">
+        <p id="title">Daily Budget Calculator</p>
 
           <!-- Left block -->
           <div class="left-block">
 
             <!-- Income -->
-            <div class="salary">
-              <form id="monthly-salary">
-                <p>
-                  <label>Monthly salary</label>:<br>
-                  <input type="text" name="fullName">
-                </p>
-                <p>
-                  <input type="submit" value="Submit">
-                </p>
-              </form>
+            <div class="incoming">
+                <p id="title-incoming">Incoming</p>
+                Qty1 : <input onblur="findTotal()" type="text" name="qty" id="qty1"/><br>
+                Qty2 : <input onblur="findTotal()" type="text" name="qty" id="qty2"/><br>
+                Qty3 : <input onblur="findTotal()" type="text" name="qty" id="qty3"/><br>
+                Qty4 : <input onblur="findTotal()" type="text" name="qty" id="qty4"/><br>
+                Qty5 : <input onblur="findTotal()" type="text" name="qty" id="qty5"/><br>
+                Qty6 : <input onblur="findTotal()" type="text" name="qty" id="qty6"/><br>
+                Qty7 : <input onblur="findTotal()" type="text" name="qty" id="qty7"/><br>
+                Qty8 : <input onblur="findTotal()" type="text" name="qty" id="qty8"/><br>
+                <br><br>
+                Total : <input type="text" name="total" id="total"/>
             </div>
-            <div class="salary">
+            <!-- <div class="salary">
               <form id="additional-money">
                 <p>
                   <label>Additional money</label>:<br>
@@ -39,7 +42,7 @@
                   <input type="submit" value="Submit">
                 </p>
               </form>
-            </div>
+            </div> -->
 
 
             <!-- Mandatory Costs -->

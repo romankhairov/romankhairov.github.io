@@ -6,22 +6,12 @@
 // for the rest days recalculates.
 
 // 1) input
-/*var monthlySalaryForm = document.getElementById('monthlySalary-form');
-monthlySalaryForm.onsubmit = function(event) {
-  event.preventDefault();
-  console.log(monthlySalaryForm.fullName);
-};*/
-
-var monthlySalary = document.getElementById('monthly-salary');
-monthlySalary.onsubmit = function(e) {
-  e.preventDefault();
-  console.log(monthlySalary.fullName.value);
-
-}
-
-var additionalMoney = document.getElementById('additional-money');
-additionalMoney.onsubmit = function(e) {
-  e.preventDefault();
-  console.log(additionalMoney.fullName.value);
-
+function findTotal(){
+    var arr = document.getElementsByName('qty');
+    var tot=0;
+    for(var i=0;i<arr.length;i++){
+        if(parseInt(arr[i].value))
+            tot += parseInt(arr[i].value);
+    }
+    document.getElementById('total').value = tot;
 }

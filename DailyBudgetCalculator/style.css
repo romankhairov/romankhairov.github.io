@@ -3,8 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 
 }
+
+
 
 .clearfix::after {
     content: "";
@@ -27,6 +30,12 @@ body {
     background-color: #fff;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+}
+
+#title,
+#title-incoming {
+  text-align: center;
+  font-size: 20;
 }
 
 .left-block,
