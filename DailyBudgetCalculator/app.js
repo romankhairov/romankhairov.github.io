@@ -9,9 +9,20 @@
 function findTotal(){
     var arr = document.getElementsByName('qty');
     var tot=0;
-    for(var i=0;i<arr.length;i++){
+    for(var i=0;i<arr.length; i++){
         if(parseInt(arr[i].value))
             tot += parseInt(arr[i].value);
     }
     document.getElementById('total').value = tot;
+}
+
+// 2) input monthly expenses
+function findTotalMonthExp(){
+    var arr = document.getElementsByName('month_exp');
+    var tot=0;
+    for(var i=0;i<arr.length; i++){
+        if(parseInt(arr[i].value))
+            tot += parseInt(arr[i].value);
+    }
+    document.getElementById('total_month_exp').value = tot;
 }

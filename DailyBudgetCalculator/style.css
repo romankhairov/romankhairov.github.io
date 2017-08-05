@@ -33,7 +33,7 @@ body {
 }
 
 #title,
-#title-incoming {
+.title-incoming {
   text-align: center;
   font-size: 20;
 }
