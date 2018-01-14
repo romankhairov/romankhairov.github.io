@@ -1,0 +1,35 @@
+body {
+  background-color: #4e4c5b;
+  color: #fff;
+}
+h3 {
+  margin: 0;
+}
+p{
+  margin-top: 0;
+}
+.wrapper{
+  width: 90%;
+  max-width: 940px;
+  margin: 20px auto;
+  background-color: #5e325d;
+}
+.home {
+  display: grid;
+  grid-gap: 1px;
+  grid-auto-rows:minmax(150px, auto);
+}
+.home > *{
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333;
+}
+.feature{
+  background-image: url();
+  background-position: bottom left;
+}
+.photos{
+  background-image: url();
+  background-position: bottom left;
+}
