@@ -61,3 +61,19 @@ body {
   grid-template-rows: 100px 1fr 100px;
   min-height: 100vh;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+      grid-template-areas: "header"
+                           "input"
+                            "output"
+                            "statistics"
+                            "footer";
+      grid-template-columns: 100%;
+      grid-template-rows: 100px 0.5fr 0.5fr 100px 100px;
+    }
+    .box {
+      margin: 5px;
+    }
+
+}
