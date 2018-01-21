@@ -10,60 +10,38 @@
 
 
   <body>
+<div class="cover">
+
        <!-- Main panel -->
-      <div class="wrapper clearfix">
-        <p id="title">Daily Budget Calculator</p>
+       <div class="container">
 
-          <!-- Left block -->
-          <div class="left-block">
+         <!-- Header -->
+         <header class="header box">
+            <h1>Daily Budget Calculator</h1>
+         </header>
+         <!-- Header End-->
 
-            <!-- Income -->
-            <div class="incoming">
-                <p class="title-incoming">Incoming</p>
-                <!-- Qty1 : <input onblur="findTotal()" placeholder="Example: Salary" type="text" name="qty" id="qty1"/><br> -->
-                  <form method="POST">
-                       <div id="dynamicInput">
-                          <div id="edit" contenteditable="true">
-                            Entry1
-                          </div><br><input type="text" name="myInputs[]">
-                       </div>
-                       <input type="button" value="Add another text input" onClick="addInput('dynamicInput');">
-                  </form>
-                <br><br>
-                Total : <br><input type="text" name="total" id="total"/>
-            </div>
-            <div class="save-button">
-              <input type="button" value="save my edits" onclick="saveEdits()"/>
-                <div id="update"> - Edit the text and click to save for next time</div>
-              <body onload="checkEdits()">
-            </div>
+          <!-- Input Block -->
+         <aside class="input box">Input</aside>
+          <!-- Input Block End -->
 
+         <!-- Output Block -->
+         <main class="output box">Output</main>
+          <!-- Output Block End -->
 
+           <!-- Statistics  -->
+           <aside class="statistics box">Statistics</aside>
+            <!-- Statistics End -->
 
+          <!-- Footer -->
+         <footer class="footer box">Footer</footer>
+         <!-- Footer End-->
 
-            <!-- Mandatory Costs -->
-            <div class="monthly-expenses">
-              <p class="title-incoming">Monthly Expenses</p>
-              <!-- Qty1 : <input onblur="findTotalMonthExp()" placeholder="Example: Rent of house" type="text" name="month_exp" id="qty1"/><br> -->
+       </div>
+       <!-- Main panel End-->
 
-              <br><br>
-              Total : <input type="text" name="total_month_exp" id="total_month_exp"/>
-            </div>
+</div>
 
-          </div>
-
-
-          <!-- Right block -->
-          <div class="right-block">
-
-            <!-- Daily budget window -->
-            <div class="daily-budget">
-
-            </div>
-
-          </div>
-
-      </div>
 
       <script src="app.js"></script>
   </body>
