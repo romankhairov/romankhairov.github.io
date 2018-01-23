@@ -1,7 +1,0 @@
-Single Page Application. It gives you analize of how much money you can spend daily, if you want to save your budget.
-
-
-
-Draft sketch of the application:
-
-https://wireframe.cc/GQx1ys
