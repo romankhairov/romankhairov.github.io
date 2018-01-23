@@ -1,48 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Calculator of Daily Budget</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="recources/css/style.css">
 
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Calculator of Daily Budget</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="recources/css/style.css">
+  <link type="text/css" rel="stylesheet" href="recources/css/input.css">
 
-
-  <body>
-<div class="cover">
-
-       <!-- Main panel -->
-       <div class="container">
-
-         <!-- Header -->
-         <header class="header box">
-            <h1>Daily Budget Calculator</h1>
-         </header>
-         <!-- Header End-->
-
-          <!-- Input Block -->
-         <aside class="input box">Input</aside>
-          <!-- Input Block End -->
-
-         <!-- Output Block -->
-         <main class="output box">Output</main>
-          <!-- Output Block End -->
-
-           <!-- Statistics  -->
-           <aside class="statistics box">Statistics</aside>
-            <!-- Statistics End -->
-
-          <!-- Footer -->
-         <footer class="footer box">Footer</footer>
-         <!-- Footer End-->
-
-       </div>
-       <!-- Main panel End-->
-
-</div>
+</head>
 
 
-      <script src="app.js"></script>
-  </body>
+<body>
+
+  <!-- <div id="myDIV" class="input_header">
+    <h2>Input values</h2>
+    <input type="text" id="myInput" placeholder="Summ...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+
+  <ul id="myUL">
+    <li>Salary</li>
+  </ul> -->
+
+
+
+
+  <div class="cover">
+
+    <!-- Main panel -->
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header box">
+        <h1>Daily Budget Calculator</h1>
+      </header>
+      <!-- Header End-->
+
+      <!-- Input Block -->
+      <aside class="input box">
+        <div class="input_block">
+
+          <div class="container">
+                <p>
+                  <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add</button>
+                </p>
+
+                <h3>Todo</h3>
+                <ul id="incomplete-tasks">
+                  <li><input type="checkbox"><label>Pay Bills</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                  <li class="editMode"><input type="checkbox"><label>Go Shopping</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+
+                </ul>
+
+                <h3>Completed</h3>
+                <ul id="completed-tasks">
+                  <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                </ul>
+              </div>
+
+      </div>
+      </aside>
+      <!-- Input Block End -->
+
+      <!-- Output Block -->
+      <main class="output box">Output</main>
+      <!-- Output Block End -->
+
+      <!-- Statistics  -->
+      <aside class="statistics box">Statistics</aside>
+      <!-- Statistics End -->
+
+      <!-- Footer -->
+      <footer class="footer box">Footer</footer>
+      <!-- Footer End-->
+
+    </div>
+    <!-- Main panel End-->
+
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
 </html>
