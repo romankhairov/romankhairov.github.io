@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Calculator of Daily Budget</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="resources/css/style.css">
 
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Calculator of Daily Budget</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="resources/css/style.css">
 
-
-  <body>
-<div class="cover">
-
-       <!-- Main panel -->
-       <div class="container">
-
-         <!-- Header -->
-         <header class="header box">
-            <h1>Daily Budget Calculator</h1>
-         </header>
-         <!-- Header End-->
-
-          <!-- Input Block -->
-         <aside class="input box">
-            <p>Input</p>
-
-           <!-- Input Block -->
-
-          <div class="input_module">
-            <div id="myDIV">
-             <input type="text" id="myInput" placeholder="Value...">
-             <span onclick="newElement()" class="addBtn">Add</span>
-           </div>
-
-           <ul id="myUL"></ul>
-         </div>
+</head>
 
 
+<body>
+  <div class="cover">
 
-           <!-- Input Block End-->
+    <!-- Main panel -->
+    <div class="container">
 
-         </aside>
-          <!-- Input Block End -->
+      <!-- Header -->
+      <header class="header box">
+        <h1>Daily Budget Calculator</h1>
+      </header>
+      <!-- Header End-->
 
-         <!-- Output Block -->
-         <main class="output box">Output</main>
-          <!-- Output Block End -->
+      <!-- Input Block -->
+      <aside class="input box">
+        <p>Input</p>
 
-           <!-- Statistics  -->
-           <aside class="statistics box">Statistics</aside>
-            <!-- Statistics End -->
+        <!-- Input Block -->
 
-          <!-- Footer -->
-         <footer class="footer box">Footer</footer>
-         <!-- Footer End-->
+        <div class="input_module">
+          <h1>Input</h1>
 
-       </div>
-       <!-- Main panel End-->
+          <input id="todoInput" type="text">
+          <button type="button" onclick="inputList()">Add Item</button>
 
-</div>
+          <ol id="inputList">
+          </ol>
+        </div>
 
 
-      <script src="resources/js/app.js"></script>
-  </body>
+
+        <!-- Input Block End-->
+
+      </aside>
+      <!-- Input Block End -->
+
+      <!-- Output Block -->
+      <main class="output box">Output</main>
+      <!-- Output Block End -->
+
+      <!-- Statistics  -->
+      <aside class="statistics box">Statistics</aside>
+      <!-- Statistics End -->
+
+      <!-- Footer -->
+      <footer class="footer box">Footer</footer>
+      <!-- Footer End-->
+
+    </div>
+    <!-- Main panel End-->
+
+  </div>
+
+
+  <script src="resources/js/app.js"></script>
+</body>
+
 </html>
