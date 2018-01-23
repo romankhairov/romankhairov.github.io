@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(41, 41, 47);
+  background-color: #29292f;
 }
 
 /* .cover {
@@ -28,8 +28,8 @@ body {
 .header {
   grid-area:header;
   text-align: center;
-  background: rgb(41, 41, 47);
-  color: rgb(194, 194, 194);
+  background: #29292f;
+  color: #c2c2c2;
 }
 
 .input {
@@ -47,8 +47,8 @@ body {
 .footer {
   grid-area:footer;
   text-align: center;
-  background: rgb(40, 40, 40);
-  color: rgb(41, 41, 47);
+  background: #282828;
+  color: #29292f;
 }
 
 .container {
@@ -71,4 +71,12 @@ body {
       grid-template-columns: 100%;
       grid-template-rows: 100px 0.5fr 0.5fr 100px 100px;
     }
+}
+
+/*  ******************** Input module *************************************/
+
+.input_module {
+  background-color: #b3b3b3;
+  margin: 50px;
+  padding: 20px;
 }
