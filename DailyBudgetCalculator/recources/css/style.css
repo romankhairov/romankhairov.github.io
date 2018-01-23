@@ -81,3 +81,8 @@ body {
 .input_block {
   margin: 5px;
 }
+
+.back {
+	background-color: grey;
+    padding: 20px;
+}
