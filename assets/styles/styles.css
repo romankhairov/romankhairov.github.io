@@ -1,8 +1,0 @@
-$mostGreen: #00ff66;
-
-body {
-  color: $mostGreen;
-  padding: 10px;
-  margin: 5px;
-  columns: 300px 2;
-}
