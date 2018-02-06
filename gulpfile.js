@@ -14,18 +14,18 @@ gulp.task('html', function() {
 });
 
 gulp.task('styles', function() {
-  return gulp.src('./assets/styles/styles.css')
+  return gulp.src('./app/assets/styles/styles.css')
     .pipe(postcss([cssvars, nested, autoprefixer]))
-    .pipe(gulp.dest('./assets/temp/styles'));
+    .pipe(gulp.dest('./app/temp/styles'));
 });
 
 gulp.task('watch', function() {
 
-  watch('./index.html', function() {
+  watch('./app/index.html', function() {
     gulp.start('html');
   });
 
-  watch('./assets/styles/**/*.css', function() {
+  watch('./app/assets/styles/**/*.css', function() {
     gulp.start('styles');
   });
 
