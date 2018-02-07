@@ -11,7 +11,8 @@ gulp.task('default', function() {
 });
 
 gulp.task('html', function() {
-  console.log("Imagine something useful being done to your HTML here.");
+  return gulp.src('./app/index.html')
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('styles', function() {
@@ -19,6 +20,7 @@ gulp.task('styles', function() {
     .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
     .pipe(gulp.dest('./app/temp/styles'));
 });
+
 
 gulp.task('watch', function() {
 
