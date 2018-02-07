@@ -455,11 +455,6 @@ body {
   color: #fff;
 }
 
-.svg-icons {
-  max-height: 50px;
-  max-width: 50px;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -508,3 +503,8 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+.btn {
+  background-color: #21499d;
+  color: #fff;
+}

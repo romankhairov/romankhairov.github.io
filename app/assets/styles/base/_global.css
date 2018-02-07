@@ -3,11 +3,6 @@ body {
   color: #fff;
 }
 
-.svg-icons {
-  max-height: 50px;
-  max-width: 50px;
-}
-
 img {
   max-width: 100%;
   height: auto;
