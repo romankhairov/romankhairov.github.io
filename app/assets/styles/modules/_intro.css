@@ -1,10 +1,19 @@
-.intro-color-background {
-   margin-left: -2000px;
-   margin-right: -2000px;
+/* .intro-color-background {
    height: 300px;
+   width: 100%;
    background-color: #2c70b6;
- }
+ } */
+
 
 .intro {
-  
+  position: relative;
+}
+
+.intro__text-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
