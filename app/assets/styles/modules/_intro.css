@@ -20,21 +20,21 @@
   &__name {
     font-weight: 300;
     font-size: 2.825rem;
-    color: #fff;
+    color: $mainWhite;
     margin: 0;
   }
 
   &__profession {
     font-weight: 500;
     font-size: 2.1rem;
-    color: #fff;
+    color: $mainWhite;
     margin: 0;
   }
 
   &__description {
     font-weight: 300;
     font-size: 1.4rem;
-    color: #fff;
+    color: $mainWhite;
     max-width: 18rem;
     margin-left: auto;
     margin-right: auto;

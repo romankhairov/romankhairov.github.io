@@ -507,4 +507,49 @@ img {
 .btn {
   background-color: #21499d;
   color: #fff;
+  text-decoration: none;
+  padding: .8rem 1.2rem;
+  display: inline-block;
+
+}
+
+.btn--footer {
+    width: 140px;
+    height: 3rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    /* border-radius: 3rem; */
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+
+.btn--footer:hover {
+  background-color: #21499d;
+ -webkit-box-shadow: 0px 15px 20px rgba(46, 114, 230, 0.4);
+         box-shadow: 0px 15px 20px rgba(46, 114, 230, 0.4);
+ color: #fff;
+ -webkit-transform: translateY(-4px);
+         transform: translateY(-4px);
+}
+
+.wrap {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
