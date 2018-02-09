@@ -468,7 +468,6 @@ img {
 
 .intro {
   position: relative;
-
 }
 
 .intro__text-content {
@@ -483,25 +482,96 @@ img {
 
 .intro__name {
     font-weight: 300;
-    font-size: 2.825rem;
     color: #fff;
     margin: 0;
+    font-size: 2.3rem;
+
+  }
+
+@media (min-width: 530px) {
+
+.intro__name {
+      font-size: 2.81rem
+
+  }
+  }
+
+@media (min-width: 800px) {
+
+.intro__name {
+      font-size: 2.81rem
+
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.intro__name {
+      font-size: 2.81rem
+
+  }
   }
 
 .intro__profession {
     font-weight: 500;
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     color: #fff;
     margin: 0;
+
+  }
+
+@media (min-width: 530px) {
+
+.intro__profession {
+      font-size: 2.1rem
+
+  }
+  }
+
+@media (min-width: 800px) {
+
+.intro__profession {
+      font-size: 2.1rem
+
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.intro__profession {
+      font-size: 2.1rem
+
+  }
   }
 
 .intro__description {
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.38rem;
     color: #fff;
     max-width: 18rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+@media (min-width: 530px) {
+
+.intro {
+      font-size: 2.81rem
+}
+  }
+
+@media (min-width: 800px) {
+
+.intro {
+      font-size: 2.1rem
+}
+  }
+
+@media (min-width: 1200px) {
+
+.intro {
+      font-size: 1.4rem
+}
   }
 
 .btn {
@@ -510,47 +580,12 @@ img {
   text-decoration: none;
   padding: .8rem 1.2rem;
   display: inline-block;
-  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-
 }
 
 .btn--footer {
-    width: 140px;
-    height: 3rem;
-    font-size: .8rem;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+    background-color: #21499d;
+    color: #fff;
+    text-decoration: none;
+    padding: .8rem 1.2rem;
+    display: inline-block;
   }
-
-.btn--footer:hover {
-  background-color: #21499d;
- -webkit-box-shadow: 0px 15px 20px rgba(46, 114, 230, 0.4);
-         box-shadow: 0px 15px 20px rgba(46, 114, 230, 0.4);
- color: #fff;
- -webkit-transform: translateY(-4px);
-         transform: translateY(-4px);
-}
-
-.wrap {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}

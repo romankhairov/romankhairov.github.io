@@ -4,37 +4,13 @@
   text-decoration: none;
   padding: .8rem 1.2rem;
   display: inline-block;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 
 
   &--footer {
-    width: 140px;
-    height: 3rem;
-    font-size: .8rem;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: $mainWhite;
-    border: none;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+    background-color: $mainBlue;
+    color: $mainWhite;
+    text-decoration: none;
+    padding: .8rem 1.2rem;
+    display: inline-block;
   }
-
-&--footer:hover {
-  background-color: $mainBlue;
- box-shadow: 0px 15px 20px rgba(46, 114, 230, 0.4);
- color: $mainWhite;
- transform: translateY(-4px);
-}
-
-}
-
-.wrap {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
