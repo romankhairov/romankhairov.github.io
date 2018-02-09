@@ -28,8 +28,14 @@
   <div class="intro">
 
     <picture>
-      <source srcset="assets/images/intro--small.jpg" media="(min-width: 640px)">
-      <img src="assets/images/intro--smaller.jpg" alt="Laptop on the table">
+      <source srcset="assets/images/intro--large.jpg 1920w,
+      assets/images/intro--large-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
+      <source srcset="assets/images/intro--medium.jpg 1380w,
+      assets/images/intro--medium-hi-dpi.jpg 2760w" media="(min-width: 990px)">
+      <source srcset="assets/images/intro--small.jpg 990w,
+      assets/images/intro--small-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+      <img srcset="assets/images/intro--smaller.jpg 640w,
+      assets/images/intro--smaller-hi-dpi.jpg 1280w" alt="Laptop on the table">
     </picture>
 
     <div class="intro__text-content">
