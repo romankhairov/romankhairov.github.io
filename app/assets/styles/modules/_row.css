@@ -1,18 +1,48 @@
+.row__link {
+  font-family: 'Roboto', sans-serif;
+  color: #324085;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+row > p {
+  text-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
 .row {
 
+  @mixin clearfix;
 
-  &__6 {
-    float: left;
-    width: 50%;
+  &--gutters > div {
+    padding-right: 40px;
+    box-sizing: border-box;
   }
 
-  &__6 {
+  &__8 {
     float: left;
-    width: 50%;
+    width: 66%;
+
+  }
+  &__4 {
+    float: left;
+    width: 33%;
+  }
+
+  &--links {
+    margin-top: 10px;
+  }
+
+  &--icons {
+    margin: 1rem;
   }
 
 }
 
-.clear-block {
-  clear: both;
+.row__4--wrapper {
+  padding: 0.5em;
+  text-align: center;
 }

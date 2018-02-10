@@ -666,16 +666,53 @@ img {
     margin-bottom: .7em;
   }
 
-.row__6 {
-    float: left;
-    width: 50%;
+.row__link {
+  font-family: 'Roboto', sans-serif;
+  color: #324085;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+row > p {
+  text-size: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
-.row__6 {
-    float: left;
-    width: 50%;
+.row--gutters > div {
+    padding-right: 40px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 
-.clear-block {
-  clear: both;
+.row__8 {
+    float: left;
+    width: 66%;
+
+  }
+
+.row__4 {
+    float: left;
+    width: 33%;
+  }
+
+.row--links {
+    margin-top: 10px;
+  }
+
+.row--icons {
+    margin: 1rem;
+  }
+
+.row__4--wrapper {
+  padding: 0.5em;
+  text-align: center;
 }
