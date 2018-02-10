@@ -588,8 +588,11 @@ img {
 .wrapper {
   padding-left: 20px;
   padding-right: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
