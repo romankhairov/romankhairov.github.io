@@ -665,3 +665,17 @@ img {
 .headline--b-margin-small {
     margin-bottom: .7em;
   }
+
+.row__6 {
+    float: left;
+    width: 50%;
+  }
+
+.row__6 {
+    float: left;
+    width: 50%;
+  }
+
+.clear-block {
+  clear: both;
+}
