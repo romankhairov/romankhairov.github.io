@@ -539,23 +539,23 @@ img {
 
 @media (min-width: 530px) {
 
-.intro {
+.intro__description {
       font-size: 2.81rem
-}
+  }
   }
 
 @media (min-width: 800px) {
 
-.intro {
+.intro__description {
       font-size: 2.1rem
-}
+  }
   }
 
 @media (min-width: 1200px) {
 
-.intro {
+.intro__description {
       font-size: 1.4rem
-}
+  }
   }
 
 .btn {
@@ -564,7 +564,7 @@ img {
   text-decoration: none;
   padding: .8rem 4.6rem;
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 2em;
   font-weight: 100;
   border-radius: .3rem;
 }
@@ -572,8 +572,27 @@ img {
 @media (min-width: 530px) {
 
 .btn {
-    font-size: 1rem;
-  padding: .8rem 2.3rem
+        font-size: 1rem;
+      padding: .8rem 2.3rem;
+      margin-top: 2em
+}
+  }
+
+@media (min-width: 800px) {
+
+.btn {
+        font-size: 1rem;
+      padding: .8rem 2.3rem;
+      margin-top: 3em
+}
+  }
+
+@media (min-width: 1200px) {
+
+.btn {
+        font-size: 1rem;
+      padding: .8rem 2.3rem;
+      margin-top: 3em
 }
   }
 
@@ -597,6 +616,13 @@ img {
   padding: 2rem 0;
 }
 
+@media (min-width: 800px) {
+
+.page-section {
+  padding: 3rem 0
+}
+  }
+
 .page-section--blue {
     background-color: #5aa6ed;
     color: #fff;
@@ -604,10 +630,38 @@ img {
 
 .headline {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.8rem;
 
 }
 
+@media (min-width: 530px) {
+
+.headline {
+    font-size: 2.1rem
+
+}
+  }
+
+@media (min-width: 800px) {
+
+.headline {
+    font-size: 2.1rem
+
+}
+  }
+
+@media (min-width: 1200px) {
+
+.headline {
+    font-size: 2.4rem
+
+}
+  }
+
 .headline--centered {
     text-align: center;
+  }
+
+.headline--b-margin-small {
+    margin-bottom: .7em;
   }

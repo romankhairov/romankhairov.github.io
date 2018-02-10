@@ -1,9 +1,26 @@
 .headline {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.8rem;
+
+    @mixin atSmall {
+    font-size: 2.1rem;
+    }
+
+    @mixin atMedium {
+    font-size: 2.1rem;
+    }
+
+    @mixin atLarge {
+    font-size: 2.4rem;
+    }
+
 
   &--centered {
     text-align: center;
+  }
+
+  &--b-margin-small {
+    margin-bottom: .7em;
   }
 
 }
