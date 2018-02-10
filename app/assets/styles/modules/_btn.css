@@ -2,9 +2,16 @@
   background-color: $mainBlue;
   color: $mainWhite;
   text-decoration: none;
-  padding: .8rem 1.2rem;
+  padding: .8rem 4.6rem;
   display: inline-block;
+  margin-top: 50px;
+  font-weight: 100;
+  border-radius: .3rem;
 
+  @mixin atSmall {
+    font-size: 1rem;
+  padding: .8rem 2.3rem;
+  }
 
   &--footer {
     background-color: $mainBlue;

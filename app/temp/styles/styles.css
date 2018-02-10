@@ -452,7 +452,7 @@ template {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #324085;
 }
 
 img {
@@ -483,7 +483,7 @@ img {
 .intro__name {
     font-weight: 300;
     color: #fff;
-    margin: 0;
+    margin: 20px;
     font-size: 2.3rem;
 
   }
@@ -507,13 +507,13 @@ img {
 @media (min-width: 1200px) {
 
 .intro__name {
-      font-size: 2.81rem
+      font-size: 3.5rem
 
   }
   }
 
 .intro__profession {
-    font-weight: 500;
+    font-weight: 100;
     font-size: 1.7rem;
     color: #fff;
     margin: 0;
@@ -521,22 +521,6 @@ img {
   }
 
 @media (min-width: 530px) {
-
-.intro__profession {
-      font-size: 2.1rem
-
-  }
-  }
-
-@media (min-width: 800px) {
-
-.intro__profession {
-      font-size: 2.1rem
-
-  }
-  }
-
-@media (min-width: 1200px) {
 
 .intro__profession {
       font-size: 2.1rem
@@ -575,17 +559,37 @@ img {
   }
 
 .btn {
-  background-color: #21499d;
+  background-color: #5aa6ed;
   color: #fff;
   text-decoration: none;
-  padding: .8rem 1.2rem;
+  padding: .8rem 4.6rem;
   display: inline-block;
+  margin-top: 50px;
+  font-weight: 100;
+  border-radius: .3rem;
 }
 
+@media (min-width: 530px) {
+
+.btn {
+    font-size: 1rem;
+  padding: .8rem 2.3rem
+}
+  }
+
 .btn--footer {
-    background-color: #21499d;
+    background-color: #5aa6ed;
     color: #fff;
     text-decoration: none;
     padding: .8rem 1.2rem;
     display: inline-block;
   }
+
+.wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-section {
+  padding: 4rem 0;
+}
