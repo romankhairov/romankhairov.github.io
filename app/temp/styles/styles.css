@@ -695,13 +695,14 @@ li {
 
 .row__8 {
     float: left;
-    width: 66%;
+    width: 55%;
+    text-align: right;
 
   }
 
 .row__4 {
     float: left;
-    width: 33%;
+    width: 45%;
   }
 
 .row--links {
@@ -709,10 +710,34 @@ li {
   }
 
 .row--icons {
-    margin: 1rem;
+    margin: .5rem;
+    color: #fff;
+    font-size: 1.35em;
+    text-align: left;
+  }
+
+@media (min-width: 800px) {
+
+.row--icons {
+    margin: .4rem;
+    font-size: 1.5rem
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.row--icons {
+    font-size: 1.5rem
+  }
   }
 
 .row__4--wrapper {
   padding: 0.5em;
   text-align: center;
+}
+
+#who-i-am {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
 }

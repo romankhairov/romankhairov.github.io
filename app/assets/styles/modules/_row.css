@@ -24,12 +24,13 @@ li {
 
   &__8 {
     float: left;
-    width: 66%;
+    width: 55%;
+    text-align: right;
 
   }
   &__4 {
     float: left;
-    width: 33%;
+    width: 45%;
   }
 
   &--links {
@@ -37,7 +38,19 @@ li {
   }
 
   &--icons {
-    margin: 1rem;
+    margin: .5rem;
+    color: #fff;
+    font-size: 1.35em;
+    text-align: left;
+
+    @mixin atMedium {
+    margin: .4rem;
+    font-size: 1.5rem;
+    }
+
+    @mixin atLarge {
+    font-size: 1.5rem;
+    }
   }
 
 }
