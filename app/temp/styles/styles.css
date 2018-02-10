@@ -596,3 +596,18 @@ img {
 .page-section {
   padding: 2rem 0;
 }
+
+.page-section--blue {
+    background-color: #5aa6ed;
+    color: #fff;
+  }
+
+.headline {
+  font-weight: 300;
+  font-size: 2rem;
+
+}
+
+.headline--centered {
+    text-align: center;
+  }

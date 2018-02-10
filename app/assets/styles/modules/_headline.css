@@ -1,0 +1,9 @@
+.headline {
+  font-weight: 300;
+  font-size: 2rem;
+
+  &--centered {
+    text-align: center;
+  }
+
+}
