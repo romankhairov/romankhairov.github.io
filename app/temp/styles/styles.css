@@ -681,6 +681,20 @@ li {
   list-style-type: none;
 }
 
+.row {
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -693,16 +707,50 @@ li {
             box-sizing: border-box;
   }
 
-.row__8 {
-    float: left;
-    width: 55%;
-    text-align: right;
-
+.row__left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 85%;
+    text-align: left;
+    padding-left: 10%;
   }
 
-.row__4 {
-    float: left;
-    width: 45%;
+@media (min-width: 800px) {
+
+.row__left {
+    padding-left: 25%
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.row__left {
+    padding-left: 25%;
+    width: 70%
+  }
+  }
+
+.row__right {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 15%;
+    text-align: right;
+
+      }
+
+@media (min-width: 800px) {
+
+.row__right {
+    width: 30%
+
+      }
   }
 
 .row--links {
@@ -711,7 +759,6 @@ li {
 
 .row--icons {
     margin: .5rem;
-    color: #fff;
     font-size: 1.35em;
     text-align: left;
   }

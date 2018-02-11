@@ -15,6 +15,9 @@ li {
 
 .row {
 
+  display: flex;
+  flex-direction: row;
+
   @mixin clearfix;
 
   &--gutters > div {
@@ -22,16 +25,35 @@ li {
     box-sizing: border-box;
   }
 
-  &__8 {
-    float: left;
-    width: 55%;
+  &__left {
+    flex-direction: column;
+    width: 85%;
+    text-align: left;
+    padding-left: 10%;
+
+    @mixin atMedium {
+    padding-left: 25%;
+    }
+
+    @mixin atLarge {
+    padding-left: 25%;
+    width: 70%;
+    }
+  }
+
+  &__right {
+    justify-content: center;
+    flex-direction: column;
+    width: 15%;
     text-align: right;
 
-  }
-  &__4 {
-    float: left;
-    width: 45%;
-  }
+    @mixin atMedium {
+    width: 30%;
+    }
+
+      }
+
+
 
   &--links {
     margin-top: 10px;
@@ -39,7 +61,6 @@ li {
 
   &--icons {
     margin: .5rem;
-    color: #fff;
     font-size: 1.35em;
     text-align: left;
 
