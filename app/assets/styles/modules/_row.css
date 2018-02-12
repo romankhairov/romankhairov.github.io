@@ -79,10 +79,12 @@ li {
 
   &--column {
     flex-direction: column;
+    padding: 0 1em;
 
     @mixin atMedium {
       display: flex;
       flex-direction: row;
+      padding: 0 4em;
     }
   }
 }
