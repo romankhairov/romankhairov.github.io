@@ -3,6 +3,7 @@ margin-bottom: 2em;
 padding: 0 2rem 1px 2rem;
 
   &__logo {
+    line-height: 0px;
     border-radius: 80px;
     overflow: hidden;
     width: 160px;
@@ -15,12 +16,15 @@ padding: 0 2rem 1px 2rem;
     font-size: 1.3rem;
     font-weight: 700;
     margin: 1rem 0 .5rem 0;
+    padding-top: 1em;
+    text-align: center;
   }
 
   &__subtitle {
     font-weight: 500;
     font-size: 1.1rem;
     margin: .8rem 0 1rem 0;
+    text-align: center;
   }
 
 }
