@@ -51,9 +51,7 @@ li {
     width: 30%;
     }
 
-      }
-
-
+}
 
   &--links {
     margin-top: 10px;
@@ -64,6 +62,10 @@ li {
     font-size: 1.35em;
     text-align: left;
 
+    a:hover {
+    color: $mainBlue;
+}
+
     @mixin atMedium {
     margin: .4rem;
     font-size: 1.5rem;
@@ -72,8 +74,17 @@ li {
     @mixin atLarge {
     font-size: 1.5rem;
     }
-  }
 
+}
+
+  &--column {
+    flex-direction: column;
+
+    @mixin atMedium {
+      display: flex;
+      flex-direction: row;
+    }
+  }
 }
 
 .row__4--wrapper {
