@@ -1,0 +1,12 @@
+.project {
+margin-bottom: 2em;
+padding: 0 2rem 1px 2rem;
+
+  &__logo {
+    border-radius: 80px;
+    overflow: hidden;
+    width: 160px;
+    heigh: 160px;
+  }
+
+}

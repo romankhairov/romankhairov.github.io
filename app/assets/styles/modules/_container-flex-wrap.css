@@ -1,0 +1,19 @@
+.container-flex-wrap {
+  display: flex;
+flex-wrap: wrap;
+text-align: left;
+justify-content: space-between;
+margin-left: 20%;
+margin-right: 20%;
+
+@mixin atMedium{
+  justify-content: space-evenly;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+&--list {
+  margin: 1em 1em;
+}
+
+}
