@@ -460,6 +460,28 @@ img {
   height: auto;
 }
 
+.site-header {
+position: absolute;
+z-index: 2;
+background-color: rgba(0,0,0, .5);
+width: 100%;
+
+}
+
+.site-header__btn-container {
+ float: right;
+}
+
+.site-header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+.primary-nav--pull-right {
+    float: right;
+  }
+
 /* .intro__color-background {
    height: 300px;
    width: 100%;
@@ -595,6 +617,11 @@ img {
       margin-top: 3em
 }
   }
+
+.btn--header {
+  background-color: #333b46;
+  margin: 0;
+}
 
 .btn--footer {
     margin: 0;

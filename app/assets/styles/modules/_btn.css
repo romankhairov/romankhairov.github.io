@@ -26,6 +26,11 @@
       margin-top: 3em;
       }
 
+&--header {
+  background-color: $mainGrey;
+  margin: 0;
+}
+
   &--footer {
     margin: 0;
     background-color: $mainBlue;
