@@ -7,6 +7,20 @@ padding: 0 2rem 1px 2rem;
     overflow: hidden;
     width: 160px;
     heigh: 160px;
+    position: relative;
+    margin: 0 auto 0 auto;
+  }
+
+  &__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1rem 0 .5rem 0;
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: .8rem 0 1rem 0;
   }
 
 }
