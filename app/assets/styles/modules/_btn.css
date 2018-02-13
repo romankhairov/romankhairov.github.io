@@ -29,6 +29,7 @@
 &--header {
   background-color: $mainGrey;
   margin: 0;
+  padding: .8rem 2.3rem;
 }
 
   &--footer {
