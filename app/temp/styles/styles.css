@@ -498,7 +498,7 @@ width: 100%;
     text-decoration: none;
     color: #fff;
     font-weight: 300;
-    padding: 12px 0;
+    padding: 8px 0;
     display: block;
   }
 
@@ -559,13 +559,25 @@ width: 100%;
     font-size: 1.7rem;
     color: #fff;
     margin: 0;
+    padding: 0 2em;
+
 
   }
 
 @media (min-width: 530px) {
 
 .intro__profession {
-      font-size: 2.1rem
+      font-size: 1.5rem
+
+
+  }
+  }
+
+@media (min-width: 800px) {
+
+.intro__profession {
+      padding: 0 5em
+
 
   }
   }
@@ -641,7 +653,7 @@ width: 100%;
 .btn--header {
   background-color: #333b46;
   margin: 0;
-  padding: .8rem 2.3rem;
+  padding: .5rem 1.6rem;
 }
 
 .btn--footer {
@@ -879,12 +891,6 @@ li {
 .row__4--wrapper {
   padding: 0.5em;
   text-align: center;
-}
-
-#who-i-am {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 300;
 }
 
 .section-title {

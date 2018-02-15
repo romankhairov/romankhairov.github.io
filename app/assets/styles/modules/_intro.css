@@ -38,10 +38,16 @@
     font-size: 1.7rem;
     color: $mainWhite;
     margin: 0;
+    padding: 0 2em;
 
       @mixin atSmall {
-      font-size: 2.1rem;
+      font-size: 1.5rem;
       }
+
+      @mixin atMedium {
+      padding: 0 5em;
+  }
+
 
   }
   &__description {
