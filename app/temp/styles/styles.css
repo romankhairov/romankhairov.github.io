@@ -556,7 +556,7 @@ width: 100%;
 
 .intro__profession {
     font-weight: 100;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #fff;
     margin: 0;
     padding: 0 2em;
@@ -576,7 +576,7 @@ width: 100%;
 @media (min-width: 800px) {
 
 .intro__profession {
-      padding: 0 5em
+      padding: .3em 5em
 
 
   }

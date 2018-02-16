@@ -35,7 +35,7 @@
   }
   &__profession {
     font-weight: 100;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: $mainWhite;
     margin: 0;
     padding: 0 2em;
@@ -45,7 +45,7 @@
       }
 
       @mixin atMedium {
-      padding: 0 5em;
+      padding: .3em 5em;
   }
 
 
