@@ -5,5 +5,3 @@ console.log("Test for our Webpack Automation, ABC 123");
 
 var roman = new Person("Roman", "blue");
 roman.hello();
-
-$("h1").remove();

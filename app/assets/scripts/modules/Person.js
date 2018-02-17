@@ -7,7 +7,3 @@ function Person(fullName, color) {
 }
 
 module.exports = Person;
-// exports.exampleProperty = "Super property";
-// exports.exampleFunction = function() {
-//   alert("This is an Example");
-// }

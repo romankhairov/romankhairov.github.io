@@ -67,6 +67,9 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 var $ = __webpack_require__(1);
 var Person = __webpack_require__(2);
 
@@ -74,9 +77,6 @@ console.log("Test for our Webpack Automation, ABC 123");
 
 var roman = new Person("Roman", "blue");
 roman.hello();
-
-$("h1").remove();
-
 
 /***/ }),
 /* 1 */
@@ -10451,22 +10451,20 @@ return jQuery;
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 function Person(fullName, color) {
   this.name = fullName;
   this.color = color;
-  this.hello = function() {
+  this.hello = function () {
     console.log("Hi there! Here are objects params: name is " + this.name + " and color is " + this.color + ".");
-  }
+  };
 }
 
 module.exports = Person;
-// exports.exampleProperty = "Super property";
-// exports.exampleFunction = function() {
-//   alert("This is an Example");
-// }
-
 
 /***/ })
 /******/ ]);
