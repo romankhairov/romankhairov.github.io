@@ -69,7 +69,8 @@
 
 var $ = __webpack_require__(1);
 var Person = __webpack_require__(2);
-console.log("Hello World");
+
+console.log("Test for our Webpack Automation, 123");
 
 var roman = new Person("Roman", "blue");
 roman.hello();
