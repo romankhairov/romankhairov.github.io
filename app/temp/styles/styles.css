@@ -560,6 +560,7 @@ width: 100%;
     color: #fff;
     margin: 0;
     padding: 0 2em;
+    line-height: 1.5em;
 
 
   }
@@ -567,7 +568,8 @@ width: 100%;
 @media (min-width: 530px) {
 
 .intro__profession {
-      font-size: 1.5rem
+      font-size: 1.5rem;
+      line-height: 1.2em
 
 
   }
