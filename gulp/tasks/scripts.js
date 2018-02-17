@@ -5,8 +5,11 @@ webpack = require('webpack');
 console.log("Preview Test");
 
 gulp.task('scripts', function(callback){
-  webpack(require('../../webpack.config.js'), function() {
-    console.log("OMG, Webpack completed!");
+  webpack(require('../../webpack.config.js'), function(err, stats) {
+    if (err) {
+      console.log(err.toString());
+    }
+    console.log(stats.toString());
     callback();
   });
 });
