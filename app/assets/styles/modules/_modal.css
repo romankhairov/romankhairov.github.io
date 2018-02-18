@@ -1,0 +1,42 @@
+.modal {
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .90);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  &--social-media {
+    display: flex;
+  }
+}
+
+
+
+.fa-envelope {
+  padding-right: 10px;
+}
+
+.modal--send-email {
+  color: $darkBlue;
+  font-size: 1.5rem;
+  font-weight: 300;
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  form {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+
+  input {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: $darkBlue;
+  }
+}

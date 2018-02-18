@@ -11,7 +11,8 @@ transition: background-color .4s ease-in-out;
 }
 
 @mixin atMedium {
-  background-color: rgba($mainBlack, .9);
+  position: fixed;
+  background-color: rgba($mainBlack, .8);
 }
 
 
@@ -63,7 +64,7 @@ transition: background-color .4s ease-in-out;
     transform-origin: 0 100%;
     transition: transform .3s ease-in-out;
   }
-  
+
   @mixin atMedium {
     display: none;
   }

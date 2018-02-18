@@ -478,7 +478,8 @@ transition: background-color .4s ease-in-out;
 @media (min-width: 800px) {
 
 .site-header {
-  background-color: rgba(0,0,0, .9)
+  position: fixed;
+  background-color: rgba(0,0,0, .8)
 
 }
   }
@@ -1182,4 +1183,47 @@ padding: 0 2rem 1px 2rem;
 .site-footer__text {
     display: block;
     font-weight: 300;
+  }
+
+.modal {
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .90);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal--social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+.fa-envelope {
+  padding-right: 10px;
+}
+
+.modal--send-email {
+  color: #324085;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.modal--send-email h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+.modal--send-email form {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
+
+.modal--send-email input {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #324085;
   }
