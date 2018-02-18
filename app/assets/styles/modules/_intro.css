@@ -62,8 +62,8 @@
   }
 
   &--hidden-text {
-   color: rgba($mainBlack, .1);
-   transition: background-color .4s ease-in-out;
+   color: rgba($mainWhite, .3);
+   transition: color .3s ease-in-out;
 
    @mixin atMedium {
      color: $mainWhite;
