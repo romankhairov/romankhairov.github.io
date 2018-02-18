@@ -19,7 +19,6 @@ class MobileMenu {
       this.siteHeader.toggleClass("site-header--expanded");
       this.name.toggleClass("intro__name--hidden-text");
       this.profession.toggleClass("intro__profession--hidden-text");
-      this.menuIcon.toggleClass("site-header__menu-icon--close-x");
     }
 
   }
