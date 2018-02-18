@@ -1196,9 +1196,42 @@ padding: 0 2rem 1px 2rem;
 }
 
 .modal--social-media {
+    font-size: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+@media (min-width: 800px) {
+
+.modal--social-media {
+    margin: .5rem;
+    font-size: 1.8rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start
+  }
+  }
+
+.modal--icons {
+    margin: .5rem;
+    font-size: 1.5em;
+
+}
+
+.modal--icons a:hover {
+    color: #5aa6ed;
+}
+
+@media (min-width: 800px) {
+
+.modal--icons {
+    margin: .5rem;
+    font-size: 1.8rem
+
+}
   }
 
 .fa-envelope {
@@ -1211,19 +1244,16 @@ padding: 0 2rem 1px 2rem;
   font-weight: 300;
 }
 
-.modal--send-email h3 {
-    font-size: 1.5rem;
+.modal--send-email p {
     font-weight: 300;
   }
 
 .modal--send-email form {
-    font-size: 1.2rem;
     font-weight: 300;
     line-height: 2rem;
   }
 
 .modal--send-email input {
-    font-size: 1.2rem;
     font-weight: 300;
     color: #324085;
   }
