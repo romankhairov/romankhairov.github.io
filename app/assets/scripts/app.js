@@ -1,7 +1,3 @@
-var $ = require('jquery');
-var Person = require('./modules/Person');
+import MobileMenu from './modules/MobileMenu';
 
-console.log("Test for our Webpack Automation, ABC 123");
-
-var roman = new Person("Roman", "blue");
-roman.hello();
+var mobileMenu = new MobileMenu();
