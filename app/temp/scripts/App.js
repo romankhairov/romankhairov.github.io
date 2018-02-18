@@ -103,8 +103,11 @@ var MobileMenu = function () {
   function MobileMenu() {
     _classCallCheck(this, MobileMenu);
 
+    this.siteHeader = (0, _jquery2.default)(".site-header");
     this.menuIcon = (0, _jquery2.default)(".site-header__menu-icon");
     this.content = (0, _jquery2.default)(".site-header__content");
+    this.name = (0, _jquery2.default)(".intro__name");
+    this.profession = (0, _jquery2.default)(".intro__profession");
     this.events();
   }
 
@@ -117,6 +120,9 @@ var MobileMenu = function () {
     key: "toggleTheMenu",
     value: function toggleTheMenu() {
       this.content.toggleClass("site-header__content--visible");
+      this.siteHeader.toggleClass("site-header--expanded");
+      this.name.toggleClass("intro__name--hidden-text");
+      this.profession.toggleClass("intro__profession--hidden-text");
     }
   }]);
 

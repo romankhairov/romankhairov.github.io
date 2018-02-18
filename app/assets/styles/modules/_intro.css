@@ -14,6 +14,8 @@
     width: 100%;
     text-align: center;
   }
+
+
   &__name {
     font-weight: 300;
     color: $mainWhite;
@@ -30,6 +32,15 @@
 
       @mixin atLarge {
       font-size: 3.5rem;
+      }
+
+      &--hidden-text {
+       color: rgba($mainBlack, .1);
+       transition: background-color .4s ease-in-out;
+
+       @mixin atMedium {
+         color: $mainWhite;
+       }
       }
 
   }
@@ -50,8 +61,17 @@
       padding: .3em 5em;
   }
 
+  &--hidden-text {
+   color: rgba($mainBlack, .1);
+   transition: background-color .4s ease-in-out;
+
+   @mixin atMedium {
+     color: $mainWhite;
+   }
+  }
 
   }
+
   &__description {
     font-weight: 300;
     font-size: 1.38rem;
