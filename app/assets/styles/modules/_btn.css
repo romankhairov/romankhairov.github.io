@@ -50,4 +50,10 @@
     font-weight: 300;
     border-radius: .3rem;
   }
+
+  &--modal {
+    font-size: 1.3rem;
+    padding: .5rem 2rem;
+    margin-right: 5px;
+  }
 }
