@@ -1,5 +1,5 @@
 .primary-nav {
-  padding: 10px 0;
+  padding: 30px 0 10px 0;
 
   @mixin atMedium {
     padding-top: 0;
@@ -21,7 +21,7 @@
   li {
     list-style: none;
     display: inline-block;
-    padding-right: .3em;
+    padding-right: .7em;
     @mixin atMedium {
       padding-right: 1em;
       float: left;
@@ -44,6 +44,7 @@
     font-size: .8rem;
     display: block;
     background-color: $mainBlue;
+    border-radius: .3rem;
 
     @mixin atMedium {
       font-size: 1rem;
