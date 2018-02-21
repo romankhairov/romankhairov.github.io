@@ -10449,10 +10449,15 @@ var _Modal = __webpack_require__(3);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
+var _StickyHeader = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./modules/StickyHeader\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mobileMenu = new _MobileMenu2.default();
 var modal = new _Modal2.default();
+var stickyHeader = new _StickyHeader2.default();
 
 /***/ }),
 /* 2 */
