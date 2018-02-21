@@ -896,22 +896,22 @@ position: fixed;
 
 .page-section {
   padding: 2rem 0;
+
+
 }
 
 @media (min-width: 800px) {
 
 .page-section {
   padding: 3rem 0
+
+
 }
   }
 
 .page-section--blue {
     background-color: #5aa6ed;
     color: #fff;
-  }
-
-.page-section--projects {
-    
   }
 
 .headline {
@@ -994,7 +994,6 @@ li {
   }
 
 .row--gutters > div {
-    padding-right: 40px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -1078,23 +1077,22 @@ li {
   }
 
 .row--column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    max-width: 800px;
     padding: 0 1em;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 @media (min-width: 800px) {
 
 .row--column {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
       padding: 0 4em
   }
   }
@@ -1156,7 +1154,6 @@ margin-right: 20%;
 .project {
 margin-bottom: 2em;
 padding: 0 2rem 1px 2rem;
-
 }
 
 .project__logo {
