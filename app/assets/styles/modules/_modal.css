@@ -1,37 +1,12 @@
 .modal {
-  position: fixed;
-  z-index: 5;
-  background-color: rgba(236, 236, 236, 0.95);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  visibility: hidden;
-  transform: scale(1.2);
-  transition: all .3s ease-in-out;
-
-  &--visible {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1);
-  }
-
-&__inner {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
   &--social-media {
-    font-size: 2rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: space-around;
 
     @mixin atMedium {
     margin: .5rem;
-    font-size: 1.8rem;
     justify-content: flex-start;
     }
   }
@@ -46,31 +21,11 @@
 
     @mixin atMedium {
     margin: .5rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     }
 
 }
-
-    &__close {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-    font-size: 2rem;
-    transform: scaleX(1.2);
-    transform-origin: 100%;
-    color: $darkBlue;
-    cursor: pointer;
-
-    &:hover {
-      color: $mainBlue;
-    }
-    }
-
-    }
-
-
-
-
+}
 
 .fa-envelope {
   padding-right: 10px;
@@ -78,7 +33,7 @@
 
 .modal--send-email {
   color: $darkBlue;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
 
   p {
