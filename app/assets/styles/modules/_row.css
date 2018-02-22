@@ -30,7 +30,7 @@ li {
 
   &__left {
     flex-direction: column;
-    width: 250px;
+    width: 500px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
