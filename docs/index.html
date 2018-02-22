@@ -9,7 +9,7 @@
   <meta name="keywords" content="front-end developer, cv, web-projects">
   <meta name="description" content="I'm Roman Khairov, front-end developer. This is my website">
 
-<link rel="stylesheet" href="assets/styles/styles-db90cb2c60.css"/>
+<link rel="stylesheet" href="assets/styles/styles-a93b01205a.css"/>
 
 </head>
 
@@ -27,7 +27,7 @@
 
       <div class="site-header__content">
       <div class="site-header__btn-container">
-        <a href="#" class="btn btn--header open-modal">Contact</a>
+        <a href="#modal" class="btn btn--header">Contact</a>
       </div>
     <nav class="primary-nav primary-nav--pull-right">
       <ul>
@@ -74,44 +74,26 @@
 
 <!-- About -->
 
-  <div id="about" class="page-section">
-    <div class="wrapper">
-          <div class="page-header">
-            <h2 class="headline headline--centered headline--b-margin-small">About me</h2>
-          </div>
-          <div class="row row--gutters">
-            <div class="row row__left">
-              <div class="row--info">
-                <div><p>Full Name: <strong>Roman Khairov</strong></p></div>
-                <div><p>Location: <strong>Lodz, Poland</strong></p></div>
-                <div><p>Birthday: <strong>09 October 1985</strong></p></div>
-                <div><p>E-mail: <strong>roman.khairov@gmail.com</strong></p></div>
-                <div><p>Phone: <strong>+48 575 001 979</strong></p></div>
-              </div>
-            </div>
-            <div class="row row__right">
-
-              <div class="row__right--wrapper">
-                  <div class="row--icons">
-                    <div><a target="_blank" href="https://github.com/romankhairov" class="row__link"><i class="fab fa-github"></i></a></div>
-                  </div>
-                  <div class="row--icons">
-                    <div><a target="_blank" href="https://www.linkedin.com/in/romankhairov/" class="row__link"><i class="fab fa-linkedin"></i></a></div>
-                  </div>
-                  <div class="row--icons">
-                    <div><a target="_blank" href="https://web.facebook.com/roman.khairov" class="row__link"><i class="fab fa-facebook-square"></i></a></div>
-                  </div>
-                  <div class="row--icons">
-                    <div><a target="_blank" href="https://www.instagram.com/romankhairov/" class="row__link"><i class="fab fa-instagram"></i></a></div>
-                  </div>
-                  <div class="row--icons">
-                    <div><a target="_blank" href="https://twitter.com/romankhairov" class="row__link"><i class="fab fa-twitter-square"></i></a></div>
-                  </div>
-              </div>
-            </div>
+<div id="about" class="page-section">
+  <div class="wrapper">
+      <div class="page-header">
+        <h2 class="headline headline--centered headline--b-margin-small">About</h2>
+      </div>
+      <div class="container-about">
+        <div class="container-about--list generic-content-container">
+              <div><p>Full Name: <strong>Roman Khairov</strong></p></div>
+              <div><p>Location: <strong>Lodz, Poland</strong></p></div>
+              <div><p>Birthday: <strong>09 October 1985</strong></p></div>
         </div>
+        <div class="container-about--list generic-content-container">
+            <div><p>E-mail: <strong>roman.khairov@gmail.com</strong></p></div>
+            <div><p>Skype: <strong>roman_khairov</strong></p></div>
+            <div><p>Phone: <strong>+48 575 001 979</strong></p></div>
+        </div>
+      </div>
   </div>
 </div>
+
 
 <!-- About End   -->
 
@@ -201,68 +183,66 @@
 
 <!-- Projects End -->
 
+<!-- Modal -->
+
+<div id="modal" class="page-section page-section--modal">
+  <div class="page-header">
+    <h2 class="headline headline--centered"><i class="far fa-envelope"></i>Contact</h2>
+  </div>
+ <div class="wrapper">
+<div class="row row--column row--gutters">
+  <div class="modal--send-email">
+    <p>You can send me e-mail to <strong>roman.khairov@gmail.com</strong></p>
+      <form action="mailto:roman.khairov@gmail.com" method="post" enctype="text/plain">
+      Name:<br>
+      <div class="modal--input"><input type="text" name="name"><br></div>
+      E-mail:<br>
+      <input type="text" name="mail"><br>
+      Comment:<br>
+      <input type="text" name="comment" size="20"><br><br>
+      <input type="submit" value="Send" class="btn--modal">
+      <input type="reset" value="Reset" class="btn--modal">
+      </form>
+  </div>
+
+  <div>
+    <div class="modal--social-media-text"><p>Or contact through one of this <strong>Social Media</strong> sites:</p></div>
+  </div>
+  <div class="modal--social-media">
+    <div class="modal--icons">
+      <div><a target="_blank" href="https://github.com/romankhairov" class="row__link"><i class="fab fa-github"></i></a></div>
+    </div>
+    <div class="modal--icons">
+      <div><a target="_blank" href="https://www.linkedin.com/in/romankhairov/" class="row__link"><i class="fab fa-linkedin"></i></a></div>
+    </div>
+    <div class="modal--icons">
+      <div><a target="_blank" href="https://web.facebook.com/roman.khairov" class="row__link"><i class="fab fa-facebook-square"></i></a></div>
+    </div>
+    <div class="modal--icons">
+      <div><a target="_blank" href="https://www.instagram.com/romankhairov/" class="row__link"><i class="fab fa-instagram"></i></a></div>
+    </div>
+    <div class="modal--icons">
+      <div><a target="_blank" href="https://twitter.com/romankhairov" class="row__link"><i class="fab fa-twitter-square"></i></a></div>
+    </div>
+  </div>
+</div></div>
+
+</div>
+
+<!-- Modal End -->
+
 <!-- Footer  -->
 
   <footer class="site-footer">
     <div class="wrapper">
       <p><span class="site-footer__text">Copyright &copy; 2018 Roman Khairov. All rights reserved.</span></p>
-      <a href="#" class="btn btn--footer open-modal">Contact</a>
     </div>
   </footer>
 
   <!-- Footer  End -->
 
-  <!-- Modal -->
 
-<div class="modal">
-<div class="modal__inner">
-  <h2 class="headline headline--centered"><i class="far fa-envelope"></i><strong>Contact</strong></h2>
-  <div class="wrapper">
-    <div class="modal--send-email">
-      <p>You can send me e-mail to <strong>roman.khairov@gmail.com</strong></p>
-        <form action="mailto:roman.khairov@gmail.com" method="post" enctype="text/plain">
-        Name:<br>
-        <div class="modal--input"><input type="text" name="name"><br></div>
-        E-mail:<br>
-        <input type="text" name="mail"><br>
-        Comment:<br>
-        <input type="text" name="comment" size="50"><br><br>
-        <input type="submit" value="Send" class="btn--modal">
-        <input type="reset" value="Reset" class="btn--modal">
-        </form>
-    </div>
-
-    <div>
-      <div class="modal--send-email"><p>Or contact with me through one of this <strong>Social Media</strong> sites:</p></div>
-    </div>
-    <div class="modal--social-media">
-      <div class="modal--icons">
-        <div><a target="_blank" href="https://github.com/romankhairov" class="row__link"><i class="fab fa-github"></i></a></div>
-      </div>
-      <div class="modal--icons">
-        <div><a target="_blank" href="https://www.linkedin.com/in/romankhairov/" class="row__link"><i class="fab fa-linkedin"></i></a></div>
-      </div>
-      <div class="modal--icons">
-        <div><a target="_blank" href="https://web.facebook.com/roman.khairov" class="row__link"><i class="fab fa-facebook-square"></i></a></div>
-      </div>
-      <div class="modal--icons">
-        <div><a target="_blank" href="https://www.instagram.com/romankhairov/" class="row__link"><i class="fab fa-instagram"></i></a></div>
-      </div>
-      <div class="modal--icons">
-        <div><a target="_blank" href="https://twitter.com/romankhairov" class="row__link"><i class="fab fa-twitter-square"></i></a></div>
-      </div>
-    </div>
-    </div>
-</div>
-
-    <div class="modal__close">x</div>
-
-
-</div>
-
-  <!-- Modal End -->
-
-<script src="assets/scripts/App-5cddfa5905.js"></script>
+<script src="assets/scripts/App-836755242e.js"></script>
 
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
