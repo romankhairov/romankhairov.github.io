@@ -1208,6 +1208,16 @@ li {
     }
   }
 
+.container__modal-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px;
+  }
+
 .container-about {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1309,13 +1319,13 @@ padding: 0 2rem 1px 2rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
+    }
 
 @media (min-width: 800px) {
 
 .modal--social-media {
     margin: .5rem
-  }
+    }
   }
 
 .modal--social-media-text {
@@ -1327,14 +1337,13 @@ padding: 0 2rem 1px 2rem;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-    }
+      }
 
 .modal--icons {
     margin: .5rem;
     font-size: 1.5em;
     color: #333b46;
-
-}
+  }
 
 .modal--icons a:hover {
     color: #5aa6ed;
@@ -1345,8 +1354,7 @@ padding: 0 2rem 1px 2rem;
 .modal--icons {
     margin: .5rem;
     font-size: 2rem
-
-}
+  }
   }
 
 .fa-envelope {
@@ -1366,6 +1374,7 @@ padding: 0 2rem 1px 2rem;
   transition: border 0.3s;
   font-weight: 300;
   color: #324085;
+
 }
 
 .modal--send-email {
@@ -1385,3 +1394,90 @@ padding: 0 2rem 1px 2rem;
 .modal--send-email form {
     font-weight: 300;
   }
+
+/* Style inputs, select elements and textareas */
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+
+label {
+  padding: 12px 12px 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 800px) {
+
+label {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start
+}
+  }
+
+/* Style the submit button */
+
+input[type=submit] {
+  background-color: #5aa6ed;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+
+.col-20 {
+  float: left;
+  text-align: right;
+  width: 15%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+
+.col-80 {
+  float: left;
+  width: 85%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media (max-width: 800px) {
+  .col-20, .col-80, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

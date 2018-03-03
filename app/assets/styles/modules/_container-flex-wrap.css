@@ -19,6 +19,12 @@
     }
   }
 
+  &__modal-btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
   &-about {
     display: flex;
     flex-wrap: wrap;

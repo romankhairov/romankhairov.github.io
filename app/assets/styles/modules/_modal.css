@@ -1,6 +1,5 @@
 .modal {
 
-
   &--social-media {
     font-size: 1.3rem;
     display: flex;
@@ -15,8 +14,8 @@
       font-size: 1.3rem;
       display: flex;
       justify-content: center;
+      }
     }
-  }
 
   &--icons {
     margin: .5rem;
@@ -31,8 +30,7 @@
     margin: .5rem;
     font-size: 2rem;
     }
-
-}
+  }
 }
 
 .fa-envelope {
@@ -51,6 +49,7 @@
   transition: border 0.3s;
   font-weight: 300;
   color: $darkBlue;
+
 }
 
 .modal--send-email {
