@@ -9,7 +9,7 @@
   <meta name="keywords" content="front-end developer, cv, web-projects">
   <meta name="description" content="I'm Roman Khairov, front-end developer. This is my website">
 
-<link rel="stylesheet" href="assets/styles/styles-08661975b5.css"/>
+<link rel="stylesheet" href="assets/styles/styles-698bf129a8.css"/>
 
 </head>
 
@@ -185,45 +185,68 @@
 <!-- Modal -->
 
 <div id="modal" class="page-section page-section--modal">
+
   <div class="page-header">
     <h2 class="headline headline--centered"><i class="far fa-envelope"></i>Contact</h2>
   </div>
- <div class="wrapper">
-<div class="row row--column row--gutters">
-  <div class="modal--send-email">
-    <p>You can send me e-mail to <strong>roman.khairov@gmail.com</strong></p>
-      <form action="mailto:roman.khairov@gmail.com" method="post" enctype="text/plain">
-      <div ><input class="modal--input" type="text" name="name" placeholder="Name">
-      <input class="modal--input" type="text" name="mail" placeholder="E-mail"></div>
-      <p>Your message:</p>
-      <input class="modal--input" type="text" name="comment" size="49" placeholder="Message"><br><br>
-        <input type="submit" value="Send" class="btn--modal">
-      <input type="reset" value="Reset" class="btn--modal">
+  <div class="container">
+    <div class="wrapper">
+
+      <form action="mailto:roman.khairov@gmail.com" method="post" enctype="text/plain" <div class="row row--column row--gutters">
+        <div class="row">
+          <div class="col-20">
+            <label for="name">Name</label>
+          </div>
+          <div class="col-80">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-20">
+            <label for="country">E-mail</label>
+          </div>
+          <div class="col-80">
+            <input type="text" id="e-mail" name="e-mail" placeholder="Your e-mail..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-20">
+            <label for="subject">Message</label>
+          </div>
+          <div class="col-80">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="container__modal-btn">
+          <input class="btn--modal" type="submit" value="Send">
+        </div>
       </form>
-  </div>
 
-  <div>
-    <div class="modal--social-media-text"><p>Or contact through one of this <strong>Social Media</strong> sites:</p></div>
+      <div>
+        <div class="modal--social-media-text">
+          <p>Or contact through one of this <strong>Social Media</strong> sites:</p>
+        </div>
+      </div>
+      <div class="modal--social-media">
+        <div class="modal--icons">
+          <div><a target="_blank" href="https://github.com/romankhairov" class="row__link"><i class="fab fa-github"></i></a></div>
+        </div>
+        <div class="modal--icons">
+          <div><a target="_blank" href="https://www.linkedin.com/in/romankhairov/" class="row__link"><i class="fab fa-linkedin"></i></a></div>
+        </div>
+        <div class="modal--icons">
+          <div><a target="_blank" href="https://web.facebook.com/roman.khairov" class="row__link"><i class="fab fa-facebook-square"></i></a></div>
+        </div>
+        <div class="modal--icons">
+          <div><a target="_blank" href="https://www.instagram.com/romankhairov/" class="row__link"><i class="fab fa-instagram"></i></a></div>
+        </div>
+        <div class="modal--icons">
+          <div><a target="_blank" href="https://twitter.com/romankhairov" class="row__link"><i class="fab fa-twitter-square"></i></a></div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="modal--social-media">
-    <div class="modal--icons">
-      <div><a target="_blank" href="https://github.com/romankhairov" class="row__link"><i class="fab fa-github"></i></a></div>
-    </div>
-    <div class="modal--icons">
-      <div><a target="_blank" href="https://www.linkedin.com/in/romankhairov/" class="row__link"><i class="fab fa-linkedin"></i></a></div>
-    </div>
-    <div class="modal--icons">
-      <div><a target="_blank" href="https://web.facebook.com/roman.khairov" class="row__link"><i class="fab fa-facebook-square"></i></a></div>
-    </div>
-    <div class="modal--icons">
-      <div><a target="_blank" href="https://www.instagram.com/romankhairov/" class="row__link"><i class="fab fa-instagram"></i></a></div>
-    </div>
-    <div class="modal--icons">
-      <div><a target="_blank" href="https://twitter.com/romankhairov" class="row__link"><i class="fab fa-twitter-square"></i></a></div>
-    </div>
-  </div>
-</div></div>
-
+</div>
 </div>
 
 <!-- Modal End -->
