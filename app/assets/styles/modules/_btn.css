@@ -72,8 +72,13 @@
   }
 
   &--modal {
-    font-size: 1.3rem;
-    padding: .5rem 2rem;
-    margin-right: 5px;
+    border: 1px solid #e7e7e7;
+    background-color: $mainBlue;
+    color: $mainWhite;
+    font-size: 14px;
+    margin: 0 12px;
+    padding: .8rem 1.6rem;
+    border-radius: 7px;
+    transition: border 0.3s;
   }
 }

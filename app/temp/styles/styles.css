@@ -901,9 +901,15 @@ position: fixed;
   }
 
 .btn--modal {
-    font-size: 1.3rem;
-    padding: .5rem 2rem;
-    margin-right: 5px;
+    border: 1px solid #e7e7e7;
+    background-color: #5aa6ed;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 12px;
+    padding: .8rem 1.6rem;
+    border-radius: 7px;
+    -webkit-transition: border 0.3s;
+    transition: border 0.3s;
   }
 
 .wrapper {
@@ -1326,6 +1332,7 @@ padding: 0 2rem 1px 2rem;
 .modal--icons {
     margin: .5rem;
     font-size: 1.5em;
+    color: #333b46;
 
 }
 
@@ -1346,12 +1353,29 @@ padding: 0 2rem 1px 2rem;
   padding-right: 10px;
 }
 
+.modal--input {
+  border: 1px solid #5aa6ed;
+  background-color: #fff;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 12px 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+  font-weight: 300;
+  color: #324085;
+}
+
 .modal--send-email {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  text-align: center;
   color: #324085;
   font-size: 1.3rem;
   font-weight: 300;
+
+
 }
 
 .modal--send-email p {
@@ -1360,10 +1384,4 @@ padding: 0 2rem 1px 2rem;
 
 .modal--send-email form {
     font-weight: 300;
-    line-height: 2rem;
-  }
-
-.modal--send-email input {
-    font-weight: 300;
-    color: #324085;
   }
