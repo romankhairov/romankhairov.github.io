@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Exploring the programming world
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Sharing my experience I got from the challenges during programming
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[roman.khairov@gmail.com](mailto:roman.khairov@gmail.com)
